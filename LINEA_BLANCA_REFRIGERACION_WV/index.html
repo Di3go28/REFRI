@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!-- =============================== -->
+  <!-- META / SEO -->
+  <!-- =============================== -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LINEA BLANCA- REFRIGERACION W-V — Instalación y reparación</title>
+  <meta name="description" content="Instalación y reparación de aires acondicionados, heladeras familiares y comerciales, lavarropas, estufas, calefones y cámaras de frío. Atención rápida y presupuesto por WhatsApp." />
+
+  <!-- =============================== -->
+  <!-- FUENTE (GOOGLE FONTS) -->
+  <!-- =============================== -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- =============================== -->
+  <!-- CSS (ARCHIVO EXTERNO) -->
+  <!-- =============================== -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================================================== -->
+  <!-- NAVBAR (MENÚ + BOTÓN WHATSAPP) — INICIO -->
+  <!-- ===================================================== -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#inicio" class="brand" aria-label="Inicio">
+        <div class="logo" aria-hidden="true">
+          <!-- Ícono decorativo (podés reemplazar por tu logo en /multimedia/) -->
+          <!-- EJEMPLO: <img src="multimedia/logo.png" alt="Logo" style="width:22px;height:22px"> -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2v20M4.93 4.93l14.14 14.14M2 12h20M4.93 19.07L19.07 4.93" stroke="#071018" stroke-width="2"/>
+          </svg>
+        </div>
+        <span id="brandName">LINEA BLANCA- REFRIGERACION W-V</span>
+      </a>
+
+      <div class="nav-actions">
+        <div class="nav-links">
+          <a href="#servicios">Servicios</a>
+          <a href="#trabajos">Trabajos</a>
+          <a href="#faq">Preguntas</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+
+        <!-- BOTÓN PRINCIPAL (WhatsApp) -->
+        <a class="btn primary" id="ctaTop" href="https://wa.me/5491162751982?text=Hola%20quiero%20consultar%20un%20presupuesto" target="_blank" rel="noopener">
+          💬 Consultar presupuesto
+        </a>
+
+        <button class="btn ghost menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+      </div>
+    </div>
+  </nav>
+  <!-- ===================================================== -->
+  <!-- NAVBAR — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- ===================================================== -->
+  <!-- MENÚ MOBILE — INICIO -->
+  <!-- ===================================================== -->
+  <div class="menu" id="mobileMenu" style="display:none; border-bottom:1px solid rgba(255,255,255,.08); background:rgba(17,22,31,.98)">
+    <div class="container" style="padding:.5rem 1rem 1rem; display:grid; gap:.35rem">
+      <a href="#servicios" onclick="toggleMenu(false)">Servicios</a>
+      <a href="#trabajos" onclick="toggleMenu(false)">Trabajos</a>
+      <a href="#faq" onclick="toggleMenu(false)">Preguntas</a>
+      <a href="#contacto" onclick="toggleMenu(false)">Contacto</a>
+    </div>
+  </div>
+  <!-- ===================================================== -->
+  <!-- MENÚ MOBILE — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- ===================================================== -->
+  <!-- HERO — INICIO -->
+  <!-- ===================================================== -->
+  <header id="inicio" class="hero">
+    <div class="container hero-wrap">
+      <div>
+        <div class="kicker"><span class="dot"></span> Atención en 24/48 hs · Garantía por escrito</div>
+        <div class="hero-title">LINEA BLANCA- REFRIGERACION <span class="wv">W‑V</span></div>
+
+        <h1>Instalación y reparación de <u style="text-decoration-color: var(--brand)">aires acondicionados</u>, heladeras, lavarropas y <span style="white-space:nowrap">cámaras de frío</span></h1>
+
+        <p class="lead">Atendemos <strong>hogares y comercios</strong>: heladeras familiares y comerciales, aires acondicionados, lavarropas, <strong>estufas</strong>, <strong>calefones</strong> y <strong>cámaras de frío</strong>. Pedí tu <em>presupuesto por WhatsApp</em> y coordinamos la visita.</p>
+
+        <div class="hero-cta">
+          <a class="btn primary" id="ctaHero" href="https://wa.me/5491162751982?text=Hola%20quiero%20consultar%20un%20presupuesto" target="_blank" rel="noopener">💬 Consultar presupuesto</a>
+          <a class="btn ghost" href="#servicios">Ver servicios ↓</a>
+        </div>
+
+        <div class="badges">
+          <span class="badge">⚡ Urgencias</span>
+          <span class="badge">🧾 Factura</span>
+          <span class="badge">🛠️ Repuestos originales</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <!-- ===================================================== -->
+        <!-- IMÁGENES DEL HERO — pegá tus imágenes en /multimedia/ -->
+        <!-- Reemplazá cada recuadro por <img src="multimedia/..." ...> -->
+        <!-- ===================================================== -->
+        <div class="grid" style="grid-template-columns: repeat(6, 1fr); gap:.6rem">
+          <div class="shot" style="grid-column:span 4">
+            <img src="multimedia/hero-aire.avif" alt="Aire acondicionado">
+            Aire acondicionado
+          </div>
+          <div class="shot" style="grid-column:span 2">
+            <!-- <img src="multimedia/hero-heladera.jpg" alt="Heladera"> -->
+            Heladera
+          </div>
+          <div class="shot" style="grid-column:span 2">
+            <!-- <img src="multimedia/hero-lavarropas.jpg" alt="Lavarropas"> -->
+            Lavarropas
+          </div>
+          <div class="shot" style="grid-column:span 4">
+            <!-- <img src="multimedia/hero-calefon.jpg" alt="Calefón"> -->
+            Calefón
+          </div>
+          <div class="shot" style="grid-column:span 6">
+            <!-- <img src="multimedia/hero-estufa.jpg" alt="Estufa"> -->
+            Estufa
+          </div>
+        </div>
+
+        <p class="muted" style="margin:.6rem 0 0">
+          Tip: subí tus fotos reales de trabajos en <code>/multimedia</code> para reemplazar los recuadros.
+        </p>
+      </div>
+    </div>
+  </header>
+  <!-- ===================================================== -->
+  <!-- HERO — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- ===================================================== -->
+  <!-- SERVICIOS — INICIO -->
+  <!-- ===================================================== -->
+  <section id="servicios">
+    <div class="container">
+      <div class="section-head">
+        <h2>Servicios</h2>
+        <p class="muted">Hogar y comercios · Atención personalizada</p>
+      </div>
+
+      <div class="cards">
+        <article class="card" data-animate>
+          <div class="icon" aria-hidden="true">❄️</div>
+          <h3>Instalación y reparación de aires acondicionados</h3>
+          <p>Split, ventana, multi-split. Colocación, relocalización, mantenimiento y limpieza profunda.</p>
+          <span class="chip">Presupuesto por WhatsApp</span>
+        </article>
+
+        <article class="card" data-animate>
+          <div class="icon" aria-hidden="true">🧊</div>
+          <h3>Heladeras familiares y comerciales</h3>
+          <p>Domésticas y comerciales. No enfría, hace hielo, pierde agua, termostato, compresor y más.</p>
+          <span class="chip">Repuestos con garantía</span>
+        </article>
+
+        <article class="card" data-animate>
+          <div class="icon" aria-hidden="true">🧺</div>
+          <h3>Reparación de lavarropas</h3>
+          <p>Automáticos y semiautomáticos. No centrifuga, no carga/descarga, ruidos, correas, rodamientos, placas.</p>
+          <span class="chip">Diagnóstico in situ</span>
+        </article>
+
+        <article class="card" data-animate>
+          <div class="icon" aria-hidden="true">🔥</div>
+          <h3>Estufas</h3>
+          <p>Revisión, mantenimiento y reparación. Encendido, limpieza, fallas de tiraje y seguridad.</p>
+          <span class="chip">Servicio confiable</span>
+        </article>
+
+        <article class="card" data-animate>
+          <div class="icon" aria-hidden="true">🚿</div>
+          <h3>Calefones</h3>
+          <p>Problemas de encendido, llama, presión/temperatura y mantenimiento preventivo.</p>
+          <span class="chip">Turnos coordinados</span>
+        </article>
+
+        <!-- Si querés agregar más servicios, duplicá un <article class="card"> y cambiá el contenido -->
+        
+        <article class="card" data-animate>
+          <div class="icon" aria-hidden="true">🏭</div>
+          <h3>Cámaras de frío</h3>
+          <p>Armado, mantenimiento y reparación de cámaras frigoríficas para comercios: control de temperatura, aislación, burletes y tableros.</p>
+          <span class="chip">Comercios y pymes</span>
+        </article>
+
+<article class="card" data-animate>
+          <div class="icon" aria-hidden="true">🫧</div>
+          <h3>Limpieza profunda & sanitización</h3>
+          <p>Higienizado y mantenimiento general para mejorar rendimiento, consumo y seguridad.</p>
+          <span class="chip">Mantenimiento preventivo</span>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- ===================================================== -->
+  <!-- SERVICIOS — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- ===================================================== -->
+  <!-- COBERTURA + POR QUÉ — INICIO -->
+  <!-- ===================================================== -->
+  <section>
+    <div class="container feature">
+      <div class="panel">
+        <h2>Zonas de cobertura</h2>
+        <p class="muted">Editá esta lista con tus barrios/partidos reales.</p>
+        <ul>
+          <li>CABA</li>
+          <li>GBA Norte / Oeste / Sur</li>
+          <li>Otras zonas a coordinar</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h2>¿Por qué elegirnos?</h2>
+        <ul class="list">
+          <li class="list-item"><div class="icon">⚡</div><div><strong>Rápidos</strong><br><span class="muted">Turnos en 24/48 hs y urgencias</span></div></li>
+          <li class="list-item"><div class="icon">🧾</div><div><strong>Transparencia</strong><br><span class="muted">Presupuesto claro antes de trabajar</span></div></li>
+          <li class="list-item"><div class="icon">🛡️</div><div><strong>Garantía</strong><br><span class="muted">En cada trabajo</span></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- ===================================================== -->
+  <!-- COBERTURA + POR QUÉ — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- ===================================================== -->
+  <!-- TRABAJOS — INICIO -->
+  <!-- ===================================================== -->
+  <section id="trabajos">
+    <div class="container">
+      <div class="section-head">
+        <h2>Trabajos recientes</h2>
+        <p class="muted">Reemplazá los recuadros por fotos reales para generar confianza.</p>
+      </div>
+
+      <div class="gallery">
+        <div class="shot">
+          <!-- <img src="multimedia/trabajo-1.jpg" alt="Trabajo 1"> -->
+          Aire acondicionado
+        </div>
+        <div class="shot">
+          <!-- <img src="multimedia/trabajo-2.jpg" alt="Trabajo 2"> -->
+          Heladera
+        </div>
+        <div class="shot">
+          <!-- <img src="multimedia/trabajo-3.jpg" alt="Trabajo 3"> -->
+          Lavarropas
+        </div>
+        <div class="shot">
+          <!-- <img src="multimedia/trabajo-4.jpg" alt="Trabajo 4"> -->
+          Calefón
+        </div>
+        <div class="shot">
+          <!-- <img src="multimedia/trabajo-5.jpg" alt="Trabajo 5"> -->
+          Estufa
+        </div>
+        <div class="shot">
+          <!-- <img src="multimedia/trabajo-6.jpg" alt="Trabajo 6"> -->
+          Servicio técnico
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================================================== -->
+  <!-- TRABAJOS — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- ===================================================== -->
+  <!-- FAQ — INICIO -->
+  <!-- ===================================================== -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-head">
+        <h2>Preguntas frecuentes</h2>
+        <p class="muted">Dudas comunes antes de solicitar visita técnica.</p>
+      </div>
+
+      <div class="faq">
+        <details>
+          <summary>¿Cómo pido un presupuesto?</summary>
+          <p>Hacé clic en <strong>“Consultar presupuesto”</strong> y contanos el equipo/modelo, falla y barrio. Si podés, sumá fotos o video.</p>
+        </details>
+        <details>
+          <summary>¿Trabajan con garantía?</summary>
+          <p>Sí, trabajamos con garantía. Consultanos por WhatsApp y te explicamos según el servicio.</p>
+        </details>
+        <details>
+          <summary>¿En qué zonas trabajan?</summary>
+          <p>CABA y GBA (y zonas a coordinar). Escribinos y te confirmamos cobertura.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+  <!-- ===================================================== -->
+  <!-- FAQ — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- ===================================================== -->
+  <!-- CONTACTO + FORM — INICIO -->
+  <!-- ===================================================== -->
+  <section id="contacto">
+    <div class="container contact">
+      <div class="panel">
+        <h2>Contacto</h2>
+
+        <div class="list">
+          <div class="list-item">
+            <div class="icon">📞</div>
+            <div>
+              <strong>Teléfono / WhatsApp</strong><br>
+              <a id="telLink" href="https://wa.me/5491162751982" target="_blank" rel="noopener">+54 9 11 6275-1982</a>
+            </div>
+          </div>
+
+          <div class="list-item">
+            <div class="icon">✉️</div>
+            <div>
+              <strong>Email</strong><br>
+              <a id="mailLink" href="mailto:wilsonvillalobos85@gmail.com">wilsonvillalobos85@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="list-item">
+            <div class="icon">📍</div>
+            <div><strong>Zona</strong><br>CABA y GBA</div>
+          </div>
+</div>
+
+        <div class="hero-cta" style="margin-top:1rem">
+          <a class="btn primary" id="ctaBottom" href="https://wa.me/5491162751982?text=Hola%20quiero%20consultar%20un%20presupuesto" target="_blank" rel="noopener">💬 Consultar presupuesto</a>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Solicitar visita</h2>
+        <p class="muted">Al enviar, se abre WhatsApp con el mensaje armado (llega directo a tu WhatsApp).</p>
+
+        <form id="visitForm">
+          <div class="grid" style="grid-template-columns:1fr 1fr">
+            <label>Nombre<br><input id="fNombre" required placeholder="Tu nombre" /></label>
+            <label>Teléfono<br><input id="fTelefono" required placeholder="Tu WhatsApp" /></label>
+
+            <label style="grid-column:span 2">Servicio<br>
+              <select id="fServicio" required>
+                <option value="">Seleccioná…</option>
+                <option>Aire acondicionado</option>
+                <option>Heladera familiar</option>
+                <option>Heladera comercial</option>
+                <option>Lavarropas</option>
+                <option>Estufa</option>
+                <option>Calefón</option>
+                <option>Cámara de frío</option>
+              </select>
+            </label>
+
+            <label style="grid-column:span 2">Barrio / Localidad<br><input id="fBarrio" required placeholder="Ej: Morón" /></label>
+
+            <label style="grid-column:span 2">Mensaje<br>
+              <textarea id="fMensaje" rows="4" placeholder="Contanos la falla o lo que necesitás"></textarea>
+            </label>
+          </div>
+
+          <div class="hero-cta">
+            <button class="btn primary" type="submit">Enviar por WhatsApp</button>
+          </div>
+
+          <p id="formMsg" class="muted" style="display:none; margin-top:.6rem">
+            Si no se abre WhatsApp, revisá el bloqueo de ventanas emergentes del navegador.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- ===================================================== -->
+  <!-- CONTACTO + FORM — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- ===================================================== -->
+  <!-- FOOTER — INICIO -->
+  <!-- ===================================================== -->
+  <footer>
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap">
+      <div>© <span id="year"></span> <span id="footerName">LINEA BLANCA- REFRIGERACION W-V</span>. Todos los derechos reservados.</div>
+      <div class="muted">Diseño responsive · One‑Page</div>
+    </div>
+  </footer>
+  <!-- ===================================================== -->
+  <!-- FOOTER — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- ===================================================== -->
+  <!-- BOTÓN FLOTANTE WHATSAPP — INICIO -->
+  <!-- ===================================================== -->
+  <div class="float-wa">
+    <a class="btn primary" id="ctaFloat" href="https://wa.me/5491162751982?text=Hola%20quiero%20consultar%20un%20presupuesto" aria-label="WhatsApp presupuesto" target="_blank" rel="noopener">
+      💬 WhatsApp
+    </a>
+  </div>
+  <!-- ===================================================== -->
+  <!-- BOTÓN FLOTANTE WHATSAPP — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- ===================================================== -->
+  <!-- JSON-LD (SEO LocalBusiness) — INICIO -->
+  <!-- ===================================================== -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "LINEA BLANCA- REFRIGERACION W-V",
+  "image": "",
+  "telephone": "+54 9 11 6275-1982",
+  "email": "wilsonvillalobos85@gmail.com",
+  "areaServed": [
+    "CABA",
+    "GBA"
+  ],
+  "url": "",
+  "description": "Instalación y reparación de aires acondicionados, heladeras familiares y comerciales, lavarropas, estufas, calefones y cámaras de frío. Presupuesto por WhatsApp.",
+  "openingHours": "Mo-Sa 08:00-20:00",
+  "priceRange": "$$"
+}
+  </script>
+  <!-- ===================================================== -->
+  <!-- JSON-LD (SEO LocalBusiness) — FIN -->
+  <!-- ===================================================== -->
+
+  <!-- =============================== -->
+  <!-- JS (ARCHIVO EXTERNO) -->
+  <!-- =============================== -->
+  <script src="js/app.js"></script>
+</body>
+</html>
